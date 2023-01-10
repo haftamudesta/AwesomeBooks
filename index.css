@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 30%;
+}
+
+.book-list {
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.rule {
+  width: 40%;
+}
