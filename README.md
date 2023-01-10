@@ -23,6 +23,8 @@ This project is a basic website that allows users to add/remove books from a lis
 
 ## Authors
 
+👤 **Author1**
+
 ## Name: Haftamu Desta
 
 ### Authors social media links
@@ -30,6 +32,16 @@ This project is a basic website that allows users to add/remove books from a lis
 - [Github:haftamudesta](https://github.com/haftamudesta)
 - [Linkedin:Haftamu Desta](https://www.linkedin.com/in/haftamu-desta-795791a1/)
 - [Twitter:DestaHaftamu](https://twitter.com/DestaHftamu?t=NQ4ovkdWbsfsjh62NFEXFg&s=09)
+
+👤 **Author2**
+
+## Name: Uthman Bello-Imoukhuede
+
+### Authors social media links
+
+- GitHub: [@githubhandle](https://github.com/Uthmanbello)
+- Twitter: [@twitterhandle](https://twitter.com/UthmanDeRoyale)
+- LinkedIn: [LinkedIn](linkedin.com/in/uthman-igein-bello-imoukhuede)
 
 ## Contributing
 
