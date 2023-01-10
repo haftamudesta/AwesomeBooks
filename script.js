@@ -43,7 +43,7 @@ const saveBooks = () => {
 const RemoveBooks = (event) => {
   const Findid = event.target.id;
   const DeleteBook = StoreBooks.filter((Book, index) => {
-    if (index != Findid) {
+    if (index !== Findid) {
       return Book;
     }
   });
