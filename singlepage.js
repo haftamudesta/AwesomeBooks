@@ -37,7 +37,6 @@ const ShowContactDetails = () => {
     AddBooks.classList.remove('active');
     DisplayBooks.classList.remove('active');
     DisplayBooks.style.display = 'none';
-    console.log('clicked');
   });
 };
 
