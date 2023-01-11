@@ -17,6 +17,7 @@
     "no-unused-vars": "off",
     "array-callback-return": "off",
     "consistent-return": "off",
+    "no-unused-expressions": "off",
     "import/extensions": [
       1,
       {

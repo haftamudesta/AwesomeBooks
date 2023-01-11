@@ -58,7 +58,6 @@ class Books {
 
   AddNewBook = () => {
     this.AddBook.addEventListener('click', () => {
-      console.log('clicked');
       if (this.SaveBooks != null) {
         [];
       }
