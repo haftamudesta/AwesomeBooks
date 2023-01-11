@@ -7,8 +7,6 @@ class Books {
     this.SaveBooks = localStorage.getItem('BookList');
     this.AddBook = document.querySelector('#btn');
     this.ErrorChecker = document.querySelector('.checker');
-    this.DisplayColor = document.querySelector('.Display');
-    (this.color = ['red', 'blue', 'green']), ['orange', 'black', 'purple'];
     this.StoreBooks = [];
     this.DecideOnDisplay();
   }
@@ -32,7 +30,7 @@ class Books {
       this.StoreBooks = this.HoldBooks;
       this.HoldBooks.forEach((Books, index) => {
         this.DisplayBooks.innerHTML += `
-         <tr class="Display" style="background:+ color[i][j] +;">
+         <tr class="Display" >
          <td><span>"</span>${Books.Title}<span>" by </span>${Books.Author}</td>
          <td><button class="remove" id="${index}">Remove</button></td>
          </tr>`;
@@ -58,6 +56,7 @@ class Books {
 
   AddNewBook = () => {
     this.AddBook.addEventListener('click', () => {
+      window.location.reload();
       if (this.SaveBooks != null) {
         [];
       }
