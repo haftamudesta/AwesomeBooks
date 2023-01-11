@@ -12,7 +12,8 @@ body {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.HoldCollection {
+
+.hold-collection {
   width: 80%;
   border: 2px solid black;
 }
@@ -28,6 +29,7 @@ body {
 .add-books {
   margin-left: 60px;
 }
+
 .newbooks {
   display: flex;
   flex-direction: column;
