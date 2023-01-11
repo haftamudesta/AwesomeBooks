@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="Container-fluid">
+      <header>
+        <nav class="nav-bar">
+          <section class="logo"><a>Owesome Books</a></section>
+          <ul class="list-Container">
+            <li class="nav-items" id="List" >
+              List
+            </li>
+            <li class="nav-items" id="Add">Add New</li>
+            <li class="nav-items" id="Link">Contact</li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section class="main-container">
+        <section class="List-Items">
+          <h1 class="owesome-header">All Owesome Books</h1>
+          <section class="hold-collection">
+            <table class="collection"></table>
+          </section>
+        </section>
+        <section class="add-books">
+          <h2 class="New-header">Add New Book</h2>
+          <div class="newbooks">
+            <input
+              type="text"
+              placeholder="Add Book Title"
+              id="title"
+              name="title"
+              required
+            /><br /><br />
+            <input
+              type="text"
+              placeholder=" Add Author"
+              id="author"
+              name="author"
+              required
+            /><br /><br />
+            <button type="submit" name="btn" id="btn">Add</button>
+            <small class="checker"></small><br />
+          </div>
+        </section>
+        <section class="Contact active">
+          <header>
+            <h2 class="con-head">Contact information</h2>
+          </header>
+          <section class="contact-sub">
+            <h3>Do you have any questions or you just want to say "Hello"?</h3>
+            <h3>you can reach out to us at!</address>!</h3>
+            <br>
+            <ul class="con-ul">
+              <li><a href="">desta451616@hotmail.com</a></li>
+              <li><a href="">Telephone:+2510915574522</a></li>
+              <li><a href="">Address:Addis Ababa</a></li>
+            </ul>
+            <h3 class="or">or</h3>
+            <ul class="con-ul">
+              <li><a href="">desta451616@hotmail.com</a></li>
+              <li><a href="">Telephone:+2510915574522</a></li>
+              <li><a href="">Address:Addis Ababa</a></li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <footer>
+        <section class="copyright">
+          <h3>Copy Right ...</h3>
+        </section>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="singlepage.js"></script>
+  </body>
+</html>
