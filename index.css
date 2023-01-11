@@ -121,7 +121,7 @@ body {
   background: #e4e5e6;
 }
 
-.Contact {
+.contact {
   display: none;
 }
 
@@ -142,7 +142,6 @@ body {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  text-shadow: #e4e5e6;
 }
 
 .copyright {
