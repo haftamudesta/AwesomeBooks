@@ -26,6 +26,41 @@ body {
   margin-bottom: 80px;
 }
 
+.top-nav {
+  background: #6e7072;
+  border: 2px solid black;
+}
+
+.top-part {
+  margin-left: 40%;
+  margin-bottom: 6px;
+}
+
+.bottom-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom-part p {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.http-input {
+  border: 2px solid rgb(31, 28, 28);
+  border-radius: 8px;
+}
+
+.curved-input {
+  width: 60px;
+  height: 20px;
+  border-radius: 40%;
+}
+
 .logo {
   margin-left: 8px;
 }

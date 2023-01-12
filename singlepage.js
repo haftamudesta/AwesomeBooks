@@ -7,7 +7,7 @@ const Link = document.querySelector('#Link');
 
 const DisplayAllBooks = () => {
   List.addEventListener('click', () => {
-    DisplayBooks.classList.toggle('active');
+    DisplayBooks.classList.add('active');
     List.style.color = 'rgb(255, 0, 0)';
     Link.style.color = 'black';
     Add.style.color = 'black';
@@ -19,7 +19,7 @@ const DisplayAllBooks = () => {
 
 const AddNewBook = () => {
   Add.addEventListener('click', () => {
-    AddBooks.classList.toggle('active');
+    AddBooks.classList.add('active');
     Add.style.color = 'rgb(255, 0, 0)';
     Link.style.color = 'black';
     List.style.color = 'black';
@@ -39,7 +39,6 @@ const ShowContactDetails = () => {
     DisplayBooks.style.display = 'none';
   });
 };
-
 DisplayAllBooks();
 AddNewBook();
 ShowContactDetails();

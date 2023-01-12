@@ -56,7 +56,6 @@ class Books {
 
   AddNewBook = () => {
     this.AddBook.addEventListener('click', () => {
-      window.location.reload();
       if (this.SaveBooks != null) {
         [];
       }
@@ -88,7 +87,6 @@ class Books {
           });
           localStorage.setItem('BookList', JSON.stringify(DeleteBook));
           this.DecideOnDisplay();
-          window.location.reload();
         });
       });
     }
