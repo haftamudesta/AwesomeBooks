@@ -95,10 +95,6 @@ class Books {
   };
 }
 const books = new Books();
-//books.DisplayAllBooks();
-//books.AddNewBook();
-//books.RemoveBooks();
-
 const fullTime = document.querySelector('.time');
 const dates = () => {
   const time = new Date();
