@@ -67,7 +67,9 @@ class Books {
         this.StoreBooks.push(this.BookList);
         localStorage.setItem('BookList', JSON.stringify(this.StoreBooks));
         this.DisplayAllBooks();
-        this.ClearFields();
+
+        this.NewTitle.value = 'Title';
+        this.NewAuthor.value = 'Author';
       } else {
         this.ErrorChecker.textContent = 'Field must contain data!';
         this.ErrorChecker.style.color = 'red';
