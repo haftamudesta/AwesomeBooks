@@ -51,6 +51,7 @@ class Books {
       });
     } else {
       this.DisplayAllBooks();
+      window.location.reload();
     }
   };
 
@@ -85,7 +86,6 @@ class Books {
             if (index !== Findid) {
               return Book;
             }
-            window.location.reload();
           });
           localStorage.setItem('BookList', JSON.stringify(DeleteBook));
           this.DecideOnDisplay();
@@ -96,6 +96,13 @@ class Books {
 }
 const books = new Books();
 const fullTime = document.querySelector('.time');
+const DisplayBooks = document.querySelector('.List-Items');
+const AddBooks = document.querySelector('.add-books');
+const Contact = document.querySelector('.Contact');
+const List = document.querySelector('#List');
+const Add = document.querySelector('#Add');
+const Link = document.querySelector('#Link');
+
 const dates = () => {
   const time = new Date();
   const year = time.getFullYear();
@@ -148,12 +155,6 @@ const dates = () => {
   fullTime.textContent = `${monthValue} ${date}th ${year},${hour}:${minute}:${second}`;
 };
 
-const DisplayBooks = document.querySelector('.List-Items');
-const AddBooks = document.querySelector('.add-books');
-const Contact = document.querySelector('.Contact');
-const List = document.querySelector('#List');
-const Add = document.querySelector('#Add');
-const Link = document.querySelector('#Link');
 const DisplayAllBooks = () => {
   List.addEventListener('click', () => {
     DisplayBooks.classList.add('active');
