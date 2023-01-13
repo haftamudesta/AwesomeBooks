@@ -36,8 +36,7 @@ body {
   padding: 0 20px;
 }
 .top-part {
-  margin-left: 30%;
-  margin-bottom: 6px;
+  text-align: center;
 }
 
 .bottom-part {
@@ -134,8 +133,9 @@ body {
 }
 
 .time {
-  margin-left: 80%;
-  margin-top: -40px;
+  float: right;
+  padding: 20px;
+  margin-top: -90px;
 }
 
 .List-Items {
@@ -203,9 +203,12 @@ body {
 }
 
 #btn {
-  width: 5%;
-  margin-left: 220px;
-  margin-top: -30px;
+  width: 50px;
+  height: 30px;
+  float: right;
+  margin-left: 26.5%;
+  margin-top: 0;
+  margin-bottom: 44px;
   border-right: 4px solid black;
   border-bottom: 4px solid black;
 }
@@ -240,10 +243,6 @@ tr {
 
 .active {
   display: block;
-}
-
-.New-header {
-  margin-bottom: 30px;
 }
 
 .con-head {
