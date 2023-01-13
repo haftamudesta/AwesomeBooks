@@ -84,7 +84,6 @@ class Books {
 const books = new Books();
 books.AddNewBook();
 books.RemoveBooks();
-
 const DisplayBooks = document.querySelector('.List-Items');
 const AddBooks = document.querySelector('.add-books');
 const Contact = document.querySelector('.Contact');
