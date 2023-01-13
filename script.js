@@ -32,7 +32,7 @@ class Books {
         this.DisplayBooks.innerHTML += `
          <tr class="Display" >
          <td><span>"</span>${Books.Title}<span>" by </span>${Books.Author}</td>
-         <td><button class="remove" id="${index}">Remove</button></td>
+         <td><button type="button" class="remove" id="${index}">Remove</button></td>
          </tr>`;
       });
     }
@@ -46,7 +46,7 @@ class Books {
         this.DisplayBooks.innerHTML += `
          <tr class="Display">
          <td><span>"</span>${Books.Title}<span>" by </span>${Books.Author}</td>
-         <td><button class="remove" id="${index}">Remove</button></td>
+         <td><button type="button" class="remove" id="${index}">Remove</button></td>
          </tr>`;
       });
     } else {

@@ -91,6 +91,7 @@ const dates = () => {
   }
   fullTime.textContent = `${monthValue} ${date}th ${year},${hour}:${minute}:${second}`;
 };
+
 DisplayAllBooks();
 AddNewBook();
 ShowContactDetails();
