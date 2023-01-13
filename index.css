@@ -35,6 +35,7 @@ body {
 .botom-nav {
   padding: 0 20px;
 }
+
 .top-part {
   text-align: center;
 }
@@ -77,17 +78,17 @@ body {
   height: 40px;
 }
 
-#search-text-input{
+#search-text-input {
   border: 2px solid black;
-  height:40px; 
-  width:80px; 
+  height: 40px;
+  width: 80px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
   padding: 4px;
   font-size: 1rem;
 }
- 
-.fa-magnifying-glass{
+
+.fa-magnifying-glass {
   background-color: rgb(226, 226, 226);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -97,7 +98,7 @@ body {
   padding: 10px 6px;
   width: 28px;
 }
- 
+
 .logo {
   margin-left: 8px;
 }
@@ -159,7 +160,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  display: none;
   margin-top: -40px;
 }
 

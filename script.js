@@ -75,7 +75,7 @@ class Books {
           });
           localStorage.setItem('BookList', JSON.stringify(DeleteBook));
           this.DecideOnDisplay();
-         });
+        });
       });
     }
   };
@@ -84,10 +84,6 @@ class Books {
 const books = new Books();
 books.AddNewBook();
 books.RemoveBooks();
-
-//===========================
-//   Single page code
-//===========================
 
 const DisplayBooks = document.querySelector('.List-Items');
 const AddBooks = document.querySelector('.add-books');
